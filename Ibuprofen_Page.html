@@ -1,0 +1,69 @@
+<head>
+<link rel="stylesheet" href="Ibuprofen_page.css">
+</head>
+
+<div class="content">
+    <div class="section-with-header-and-subtitle">
+        <h1 class="Ibuprofen-childs-dosage">Ibuprofen Child's Dosage</h1>
+        <p class="calculator-not-suita">Calculator not suitable for infant less than 3 months</p>
+    </div>
+    <div class="weight-and-strength">
+        <div class="weight-group-with-unit">
+            <div class="input-wrapper-1">
+                <div class="form-block-label lato-normal-black-14px">Weight</div>
+                <div class="form-text-input-1 form-text-input-3">
+                    <div class="enter-childs-weight lato medium-mountain-mist-14px">Enter Child's Weight <input type="number" id="weight" name="weight" required></input></div>
+                </div>
+                <div class="unit-in-kilogram-or-pounds">
+                    <div class="unit">
+                        <div class="kilogram lato-medium-moutain-mist-14px">Unit of Weight:</div>
+                        <select id="measurement" name="measurement" required>
+							<option value ="measurement1">kilogram</option>
+							<option value ="measurement2">pounds</option>
+						</select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="input-wrapper-1">
+            <div class="form-test-input-2 form-text-input-3">
+                <p class="select-the-strength from the option">Select the Ibuprofen strength from the option</p>
+				<select id="strength" name="strength" required>
+				<option value ="strength1">50mg infant drops</option>
+				<option value ="strength2">100mg liquid</option>
+			</select>
+            </div>
+        </div>
+        
+        <div class="form-button">
+            <div class="calculate"><button type="button" id="calculateBtn">Calculate</button></div>
+        </div>
+    </div>
+   
+    <img class="kidpy-logo" src="kidpy-logo.png" alt="kidpy Logo" />
+</div>
+<div class="image-wrapper">
+    <div class="result-in-mls-or-mgs">
+        <div class="input-wrapper">
+            <div class="form-block-label lato-normal-black-14px">Dose in Milliliters</div>
+            <div class="form-text-input"><output id="dosageml"></div>
+        </div>
+        <div class="input-wrapper">
+            <div class="form-block-label lato-normal-black-14px">Dose in Milligrams</div>
+            <div class="form-text-input"><output id="dosagemg"></div>
+        </div>
+        <div class="general-dosage">
+            <div class="textarea-wrapper">
+                <div class="form-block-label lato-normal-black-14px">General Dosage:</div>
+            </div>
+            <div class="textarea-wrapper-1">
+                <p class="form-block-label-1">
+                    3 months to 18 years old every 8 hours, 6 mg/kg (maximum 400mg) for pain or fever. Do not exceed 3 doses in 24 hours.
+
+            </div>
+        </div>
+    </div>
+    <div class="place"><a href="index.html">Back</div>
+    <div class="h2-get-in-touch">Expected Dosage result </div>
+</div>
+<script src="ibuprofenscript.js"></script>

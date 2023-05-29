@@ -1,0 +1,323 @@
+.content {
+background-color: white;
+height: 600px;
+left: 0;
+position: absolute;
+top: 4px;
+width: 600px;
+}
+
+.dropdown-for-Paracetamol-strength-1 {
+    height: 7px;
+    left: 499px;
+    position: absolute;
+    top: 254px;
+    width: 11px;
+}
+
+.weight-and-strength {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 158px;
+    left: 30px;
+    position: absolute;
+    top: 117px;
+    width: fit-content;
+
+}
+
+.input-wrapper-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 500px;
+}
+
+.form-text-input-2 {
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.new-paracetamol-dosage-calculator .form-text-input-3 {
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    display: flex;
+    gap: 8px;
+    height: 42px;
+    padding: 12px;
+    position: relative;
+}
+
+.select-the-strength-from-the-option {
+    color: #A29D96;
+    flex: 1;
+    font-family: inter;
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+
+}
+
+.weight-group-with-unit {
+    height: 71px;
+    min-width: 500px;
+    position: relative;
+}
+
+.form-text-input-1 {
+    align-items: center;
+    width: 345px;
+}
+
+.enter-childs-weight {
+    letter-spacing: 0;
+    line-height: 19.6px;
+    margin-top: -2px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.unit-in-kilogram-or-pounds {
+    height: 42px;
+    left: 345px;
+    position: absolute;
+    top: 29px;
+    width: 158px;
+}
+
+.unit {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    gap: 8px;
+    height: 42px;
+    padding: 12px;
+    position: relative;
+    width: 158px;
+}
+
+.dropdown-for-Paracetamol-strength {
+    height: 7px;
+    left: 126px;
+    position: absolute;
+    top: 19px;
+    width: 11px;
+
+}
+
+.kilogram {
+    letter-spacing: 0;
+    line-height: 19.6px;
+    margin-top: -2px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.form-button {
+    align-items: center;
+    background-color: #ffbf00;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    left: 0;
+    padding: 12px 24px;
+    position: absolute;
+    top: 197px;
+    width: 500px;
+}
+
+.calculate {
+    color: white;
+    font-family: lato;
+    font-size: s;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.section-with-header-and-subtitle {
+    height: 71px;
+    left: 28px;
+    position: absolute;
+    top: 31px;
+    width: 416px;
+}
+
+.paracetamol-childs-dosage {
+    color: black;
+    font-family: lato;
+    font-size: x-large;
+    font-weight: 700;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 381px;
+}
+
+.calculator-not-suita {
+	color: black;
+    font-family: lato;
+    font-size: large;
+    font-weight: 400;
+    left: 60;
+    letter-spacing: 0;
+    line-height: 10px;
+    position: absolute;
+    text-align: center;
+    top: 44px;
+    bottom: 2px;
+    white-space: nowrap;
+    width: 412px;
+}
+
+
+.image-wrapper {
+    background-color: #ffbf00;
+    flex: 1;
+    height: 392.9px;
+    min-width: 1200px;
+    position: right;
+    border: 10px;
+}
+
+
+.h2-get-in-touch {
+    color: black;
+    font-family: lato;
+    font-size: x-large;
+    font-weight: 700;
+    left: 619px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 68px;
+    white-space: nowrap;
+    width: 221px;
+}
+
+.place {
+    color: #374146;
+    cursor: pointer;
+    font-family: lato;
+    font-size: medium;
+    font-weight: 600;
+    left: 621px;
+    letter-spacing: 0.75px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 33px;
+    white-space: nowrap;
+    width: 45px;
+}
+
+.result-in-mls-or-mgs {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 622px;
+    position: absolute;
+    top: 102px;
+    width: 500px;
+}
+
+.input-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.form-text-input {
+    align-self: stretch;
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    height: 42px;
+    min-width: 500px;
+    position: relative;
+}
+
+.form-block-label {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.general-dosage {
+    height: 82px;
+    left: 0;
+    position: absolute;
+    top: 174px;
+    width: 500px;
+}
+
+.textarea-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 500px;
+}
+
+.textarea-wrapper-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 0;
+    position: absolute;
+    top: 31px;
+    width: 500px;
+}
+
+.form-block-label-1 {
+    align-self: stretch;
+    color: #374146;
+    font-family: lato;
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+
+}
+
+.kidpy-logo {
+    margin-bottom: 20px;
+    height: 100px;
+    margin-left: 25px;
+    position: absolute;
+    width: 100px;
+}
